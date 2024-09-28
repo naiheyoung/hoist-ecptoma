@@ -4,6 +4,10 @@
     <div>
       <router-link btn to="/details">Go</router-link>
     </div>
-    <FloatProxy w50 h50 rounded-xl />
+    <TheImageProxy w50 h50 rounded-xl />
   </div>
 </template>
+
+<script setup lang="ts">
+import { TheImageProxy } from "~/composables";
+</script>
